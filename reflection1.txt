@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It helped as you noticed only the parts that changed between a working version
+and a non-working version.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+- You can go back to previous version that does not contain unwanted changes.
+- You can understand how the program was structured.
+
+Manual commits:
+
+- When you manually commit your changes you they each have a semantic and
+independent meaning.
+
+Muti-file commits:
+
+They are useful because the separate changes in those files are logically related
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+With git log you can quickly the last logic changes in your code, by whom and when.
+With git diff you can check out out these two versions have changed
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Because you can always go back to a previous working version
+
+How do you want use git?
+
+I actually want to use it for non-coding projects. Could really enhance
+productivity.
