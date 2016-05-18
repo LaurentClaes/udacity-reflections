@@ -1,0 +1,13 @@
+What happens when you initialize a repository?
+
+It enhances a simple directory into repository by adding meta data covering the
+evolution of the project. You need to do it when you want to start tracking
+version and changes of your code.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+It lets you define what is logical unit of code to be committed. It offers more
+defining power and flexibility to determine exactly what is a single commit
+while maybe solving to different things in parallel. All changes in one file are
+part of one commit. They can not be split across commits.
