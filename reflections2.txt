@@ -11,3 +11,37 @@ It lets you define what is logical unit of code to be committed. It offers more
 defining power and flexibility to determine exactly what is a single commit
 while maybe solving to different things in parallel. All changes in one file are
 part of one commit. They can not be split across commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By adding to the current staging area only the changes that are part of the same
+logical unit.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+On experimental features or side projects (forks) of codebase. No could work
+from the same foundational codebase without interfering and potentially
+breaking the other projects.
+
+How do the diagrams help you visualize the branch structure?
+
+By visualizing them in the terminal through simple animation, git log --graph
+branch_1 branch_2v
+
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+it results in new branch with inherits the commits of its parents. The
+label of the ew branch is the label of the currently checked out branch's name.
+The commits are logged according to their timestamp so can be intwined.
+Subsequent commits in a merged branch can thus not have a parent child relation
+ship. to diff a branch against its parent you can use git shoe branch.
+The show command will automatically find the parent of the commit.
+
+What are the pros and cons of Git’s automatic merging vs.
+always doing merges manually?
+
+Auto merging: less redundant work to do
+Cons: might sometimes encounter unexpected behavior.
